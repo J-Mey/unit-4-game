@@ -1,0 +1,53 @@
+body {
+    width: 960px;
+    padding-left: 20px 
+}
+
+.col-lg-6 {
+    background: tan;
+    color: green;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+#randomNum {
+    background: green;
+    color: purple;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    margin-left: -15px;
+    padding-left: 10px;
+       
+}
+
+.col-md-2 {
+    background: aqua;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+#gameName {
+    background: orange;
+    color: white;
+    margin-left: -15px;
+    padding: 10px;
+
+}
+
+#totalScore {
+    background: green;
+    color: white;
+    padding: 10px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+#yourScore {
+    background: green;
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    margin-left: -15px;
+    
+}
