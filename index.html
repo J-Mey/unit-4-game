@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         
     </head>
-    <body background="assets/images/space-background.jpg">
+    <body>
 
         
 
@@ -33,21 +33,26 @@
         
         <div class="row">
             <div class="col-md-3">
-                <h2 id="randomNum">19-120</h2>
+                <h2 id="randomNum-text"></h2>
             </div>
             <div class="col-md-2">  
-                <p id="win-text">Wins:</p>  
-                <p id="lose=text">Losses:</p>
+                <p>Wins: <span id="win-text"></span></p>  
+                <p>Losses: <span id="lose-text"></span></p>
             </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-dm-4">
-                <img src="assets/images/Power.jpg" alt="Power Stone">
-                <img src="assets/images/Reality.jpg" alt="Reality Stone">
-                <img src="assets/images/soul.jpg" alt="Soul Stone">
-                <img src="assets/images/space.jpg" alt="Space Stone">
+
+                    <img src="assets/images/Power.jpg" class="stones"  id="stone-1" alt="Power Stone">
+               
+                    <img src="assets/images/Reality.jpg" class="stones" id="stone-2" alt="Reality Stone">
+                
+                    <img src="assets/images/soul.jpg" class="stones" id="stone-3" alt="Soul Stone">
+                
+                    <img src="assets/images/space.jpg" class="stones" id="stone-4" alt="Space Stone">
+             
             </div>
 
         </div>
@@ -60,15 +65,13 @@
 
         <div class="row">
             <div class="col-md-3">
-                <h2 id="yourScore">0</h2> 
+                <h2><span id="yourScore-text"></span></h2> 
             </div>
         </div>
-            
-
     </div>
         
+        <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="assets/javascript/game.js"></script>
-        
 
     </body>
 </html>
