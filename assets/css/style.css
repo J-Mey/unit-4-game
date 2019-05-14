@@ -5,17 +5,17 @@ body {
 }
 
 .col-lg-6 {
-    background: tan;
+    background:#fbe6ce;
     color: green;
     padding-top: 25px;
     padding-bottom: 100px;
 }
 
 #randomNum-text {
-    background: green;
+    background: #53c987;
     color: purple;
     margin-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     margin-left: -15px;
     padding-left: 10px;
        
@@ -29,15 +29,16 @@ body {
 
 
 #gameName {
-    background: orange;
+    background: #cb6f35;
     color: white;
     margin-left: -15px;
+    margin-right: 70px;
     padding: 10px;
 
 }
 
 #totalScore {
-    background: green;
+    background: #1fa397;
     color: white;
     padding: 10px;
     margin-left: -15px;
@@ -45,10 +46,10 @@ body {
 }
 
 #yourScore-text {
-    background: green;
+    background: #1fa397;
     color: white;
     padding-bottom: 50px;
-    padding-left: 10px;
     margin-left: -15px;
+    padding-left: 10px;
     
 }
